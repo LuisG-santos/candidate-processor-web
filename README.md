@@ -2,7 +2,7 @@
 
 Frontend do **Candidate Processor** (BTG): interface para enviar uma planilha CSV com dados e notas de candidatos, acompanhar o processamento e visualizar os candidatos aprovados.
 
-Este repositório contém **apenas o front-end**. O back-end (API de jobs, processamento e S3) tem seu próprio README/repositório.
+Este repositório contém **apenas o front-end**. O back-end (API de jobs, processamento e S3) se encontra em [`LuisG-santos/candidate-processor-api`](https://github.com/LuisG-santos/candidate-processor-api).
 
 ## Como funciona
 
