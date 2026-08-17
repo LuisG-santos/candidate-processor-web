@@ -63,7 +63,6 @@ export function UploadArea({ setCandidates }: uploadAreaProps) {
                 <UploadCloud className="w-12 h-12" />
                 <div className="flex flex-col">
                     <h1 className="font-bold">Processar arquivo</h1>
-                    <p>Status do job:</p>
                     <p className="text-sm text-zinc-500">Envie um arquivo CSV contendo os dados e as notas do candidato</p>
                 </div>
 
