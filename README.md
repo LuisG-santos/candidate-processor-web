@@ -1,6 +1,6 @@
 # Candidate Processor — Web
 
-Frontend do **Candidate Processor** (BTG): interface para enviar uma planilha CSV com dados e notas de candidatos, acompanhar o processamento e visualizar os candidatos aprovados.
+Frontend do **Candidate Processor**: interface para enviar uma planilha CSV com dados e notas de candidatos, acompanhar o processamento e visualizar os candidatos aprovados.
 
 Este repositório contém **apenas o front-end**. O back-end (API de jobs, processamento e S3) se encontra em [`LuisG-santos/candidate-processor-api`](https://github.com/LuisG-santos/candidate-processor-api).
 
@@ -60,7 +60,3 @@ npm run lint          # eslint
 ## Configuração da API
 
 A URL base da API está definida diretamente em [`src/services/api.ts`](src/services/api.ts) (`https://api.lgnunes.com`). Se o back-end mudar de endereço por ambiente (dev/staging/prod), vale extrair isso para uma variável de ambiente do Vite (`import.meta.env.VITE_API_URL`), configurada via `.env`.
-
-## Backend
-
-A API consumida por este front (criação de jobs, processamento das planilhas e geração das URLs do S3) fica em um repositório/README separado.
