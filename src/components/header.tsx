@@ -7,7 +7,6 @@ export function Header() {
                 <img src={logo} alt="Candidate Processor" className="w-auto h-10 rounded-xl"></img>
                 <div>
                     <h1 className="font-semibold">Candidate Processor</h1>
-                    <p className="text-sm text-zinc-500">BTG</p>
                 </div>
 
             </div>

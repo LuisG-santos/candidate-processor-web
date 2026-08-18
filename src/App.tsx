@@ -16,7 +16,7 @@ function App() {
       <CandidatesTable candidates={candidates}/>
     </div>
     <div className='bg-zinc-900 border-t-1 p-7'>
-      <p className='text-sm text-zinc-500'>Candidate Processor BTG ©2026</p>
+      <p className='text-sm text-zinc-500'>Candidate Processor ©2026</p>
     </div>
       
     </>
